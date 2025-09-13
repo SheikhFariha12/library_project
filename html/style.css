@@ -1,0 +1,804 @@
+/*register.css*/
+body { 
+  font-family: Arial, sans-serif; 
+  background-image:  url("img2.jpg"); 
+}
+
+.register-box {
+  background:rgba(100, 100, 100, 0.7);
+  padding: 30px 40px;
+  margin: 150px auto;
+  border-radius: 30px;
+  max-width: 450px;
+  max-height: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.10);
+}
+
+.register-box h2 { 
+  text-align: center; 
+}
+
+label { 
+  display: block; 
+  margin-top: 15px; 
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%; 
+  padding: 8px; 
+  margin-top: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button {
+  
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.button:hover { 
+  background: #45a049; 
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* books.css*/
+
+body {
+  background: #222233;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.top-bar {
+  background: #48006b;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.top-bar .logo {
+  font-family: Harrington, fantasy;
+  font-size: 2em;
+  color: #ffd900;
+  margin-right: 30px;
+}
+
+.search-form input[type="text"] {
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+}
+
+.search-form input[type="submit"] {
+  background: #8d09ad;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 18px;
+  margin-left: 6px;
+}
+
+.logout-btn {
+  margin-left: auto;
+  background: #ff5252;
+  color: #fff;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 20px;
+}
+.book-card {
+  background: #352289;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #20104080;
+  width: 210px;
+  margin: 20px 18px;
+  padding: 15px;
+  text-align: center;
+}
+.book-card img {
+  width: 120px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 7px;
+  margin-bottom: 7px;
+}
+.book-card h3 {
+  font-family: Arial, sans-serif;
+  font-size: 1.1em;
+  color: #ff9ae4;
+}
+.book-card .btn {
+  background: #210a57;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 15px;
+  font-size: 1em;
+  margin-top: 8px;
+  display: inline-block;
+  cursor: pointer;
+}
+.book-card .btn:hover {
+  background: #8d09ad;
+}
+
+/*manage_books.css*/
+body {
+  background: #0c181d;
+  color: #f7f7ff;
+  font-family: Arial, sans-serif;
+}
+.top-bar {
+  background: #014150;
+  color: #ffd900;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-size: 1.7rem;
+  color: #ffc107;
+  font-family: Harrington, fantasy;
+  margin-right: 25px;
+}
+.logout-btn {
+  margin-left: auto;
+  background: #ff5252;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.manage-books-content {
+  background: #183447;
+  margin: 30px auto;
+  padding: 33px;
+  width: 90%;
+  border-radius: 18px;
+}
+.manage-books-content h2 {
+  color: #ffd900;
+  margin-bottom: 20px;
+  font-family: Arial Black, fantasy;
+}
+table {
+  width: 100%;
+  background: #1b203a;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 13px 10px;
+  border-bottom: 1px solid #346dac;
+  font-size: 1.0em;
+}
+th {
+  background: #3943b7;
+  color: #fffad7;
+}
+input[type='text'], input[type='submit'] {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  margin: 4px 4px;
+}
+input[type='submit'] {
+  background: #7f31c1;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+input[type='submit']:hover {
+  background: #591b78;
+}
+a {
+  color: #ffd900;
+  text-decoration: underline;
+  margin: 0 4px;
+}
+
+/*reservations.css*/
+body {
+  background: #292d3e;
+  color: #eee;
+  font-family: Arial, sans-serif;
+}
+.top-bar {
+  background: #085a63;
+  color: #fff;
+  padding: 13px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: Harrington, fantasy;
+  font-size: 1.7em;
+  color: #ffd900;
+  margin-right: 30px;
+}
+.logout-btn {
+  margin-left: auto;
+  background: #d4005a;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.reservations-content {
+  margin: 35px auto;
+  padding: 30px;
+  width: 85%;
+  background: #263238;
+  border-radius: 18px;
+}
+h2, h3 {
+  color: #ffd900;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  background: #397fa3;
+  color: #fff;
+  border-radius: 9px;
+  margin: 12px 0;
+  padding: 15px 15px;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li a, li button {
+  background: #fffad7;
+  border: none;
+  color: #2d016e;
+  border-radius: 6px;
+  padding: 5px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  text-decoration: none;
+}
+li a:hover, li button:hover {
+  background: #ffd900;
+}
+
+/*borrow_return.css*/
+body {
+  background: #2d2337;
+  color: #f5f3fa;
+  font-family: Arial, sans-serif;
+}
+.top-bar {
+  background: #701d8c;
+  color: #ffd900;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: Harrington, fantasy;
+  font-size: 1.7em;
+  color: #ffd900;
+  margin-right: 22px;
+}
+.logout-btn {
+  margin-left: auto;
+  background: #ff5252;
+  color: #fff;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.borrow-content {
+  margin: 30px auto;
+  padding: 28px;
+  width: 90%;
+  background: #46518b;
+  border-radius: 15px;
+}
+.borrow-content h2 {
+  color: #ffd900;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  background: #432698;
+  color: #fffde1;
+  border-radius: 9px;
+  margin: 12px 0;
+  padding: 14px 13px;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li a {
+  background: #ffcce1;
+  color: #701d8c;
+  padding: 5px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10px;
+}
+li a:hover {
+  background: #ffd900;
+}
+
+/*reports.css*/
+body {
+  background: #f4f6fc;
+  color: #222356;
+  font-family: Arial, sans-serif;
+}
+.top-bar {
+  background: #282e43;
+  color: #fff;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: Harrington, fantasy;
+  font-size: 2.1em;
+  color: #4b96bf;
+  margin-right: 30px;
+}
+.logout-btn {
+  margin-left: auto;
+  background: #e64980;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.reports-content {
+  background: #d5e1f5;
+  margin: 35px auto;
+  padding: 35px;
+  width: 80%;
+  border-radius: 19px;
+}
+h2 {
+  color: #2c337d;
+  font-family: Impact, fantasy;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #314882;
+  padding: 14px;
+  text-align: center;
+}
+th {
+  background: #28395a;
+  color: #fff;
+}
+tr:nth-child(even) { background: #ccd9f0;}
+
+/*announcements.css*/
+body {
+  background: #ffe9dc;
+  color: #491902;
+  font-family: Arial, sans-serif;
+}
+.top-bar {
+  background: #fa789a;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: Harrington, fantasy;
+  font-size: 2em;
+  color: #fdc503;
+  margin-right: 30px;
+}
+.logout-btn {
+  margin-left: auto;
+  background: #bc004b;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.announcements-content {
+  margin: 32px auto;
+  padding: 28px;
+  width: 80%;
+  background: #fff8ee;
+  border-radius: 13px;
+}
+.announcement-banner {
+  background: #ffbee6;
+  color: #830124;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/*profile.css*/
+body {
+  background: #e3e9eb;
+  color: #23265d;
+  font-family: Arial, sans-serif;
+}
+.top-bar {
+  background: #33385c;
+  color: #ffd900;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: Harrington, fantasy;
+  font-size: 1.8em;
+  color: #ffd900;
+  margin-right: 28px;
+}
+.logout-btn {
+  margin-left: auto;
+  background: #ff5252;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 19px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.profile-content {
+  background: #fff;
+  margin: 28px auto;
+  padding: 42px;
+  width: 420px;
+  border-radius: 20px;
+  box-shadow: 0 2px 14px #99a;
+}
+.profile-content h2 {
+  color: #603388;
+}
+form label {
+  display: block;
+  margin: 12px 0 4px 0;
+}
+form input[type='text'],
+form input[type='password'] {
+  width: 95%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #b0a999;
+  margin-bottom: 14px;
+}
+input[type='submit'] {
+  background: #293398;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 8px 32px;
+  margin-right: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+input[type='submit']:hover {
+  background: #ffd900;
+  color: #37364d;
+}
+
+/*review.css*/
+body {
+  background: #ffeffa;
+  color: #c1157a;
+  font-family: Arial, sans-serif;
+}
+.top-bar {
+  background: #414871;
+  color: #f6f9ff;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: Harrington, fantasy;
+  font-size: 2em;
+  color: #fa75ec;
+  margin-right: 30px;
+}
+.logout-btn {
+  margin-left: auto;
+  background: #b71c70;
+  color: white;
+  border: none;
+  padding: 6px 13px;
+  border-radius: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.review-content {
+  margin: 35px auto;
+  padding: 28px;
+  width: 80%;
+  background: #fff5fc;
+  border-radius: 15px;
+}
+.review-content h2 {
+  color: #db479b;
+}
+form label {
+  display: block;
+  margin-top: 8px;
+}
+form input[type='text'],
+form textarea,
+form select {
+  width: 96%;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #db479b;
+  margin-bottom: 11px;
+}
+form input[type='submit'] {
+  background: #bd45a9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 25px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 6px;
+}
+form input[type='submit']:hover {
+  background: #ffd900;
+  color: #b71c70;
+}
+.reviews-list .review {
+  background: #f9e0f5;
+  color: #a5236f;
+  border-radius: 6px;
+  padding: 14px;
+  margin-bottom: 11px;
+}
+
+/*student_dashboard.css*/
+body {
+  background-color: #31374d;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+.centered-title {
+  font-family: Harrington, fantasy;
+  font-size: 2.5em;
+  color: #8506b8;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(247, 244, 95, 0.879);
+  letter-spacing: 1px;
+  padding: 8px;
+}
+.top-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #063480;
+  padding: 10px 20px;
+}
+.top-bar .logo {
+  font-family: Harrington, fantasy;
+  color: #fae900;
+  font-size: 1.6em;
+  margin-right: 26px;
+}
+.search-form input[type="text"] {
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  width: 160px;
+  margin-right: 6px;
+}
+.search-form input[type="submit"] {
+  background: #8506b8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 17px;
+  cursor: pointer;
+}
+.top-bar a {
+  color: white;
+  padding: 9px 14px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 13px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.top-bar a:hover {
+  background-color: #16bebb;
+}
+.logout-btn {
+  margin-left: auto;
+  background-color: #ff5252;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.logout-btn:hover {
+  background-color: #ff0000;
+}
+.content {
+  margin: 28px auto;
+  width: 80%;
+  padding: 20px 0;
+  text-align: center;
+}
+.quick-links {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  margin-top: 36px;
+}
+.card {
+  background: #8506b8;
+  color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px #263a7677;
+  padding: 30px 45px;
+  font-size: 1.3em;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+  display: inline-block;
+}
+.card:hover {
+  background: #e296fc;
+  color: #311c3c;
+}
+
+/*librarian_dashboard.css*/
+body {
+  background: #1c2533;
+  color: #e6e9ff;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 0;
+}
+.centered-title {
+  text-align: center;
+  font-family: Trebuchet MS, fantasy;
+  font-size: 2.3em;
+  color: #ffde00;
+  margin-top: 24px;
+  text-shadow: 1px 1px 6px #350076cc;
+}
+.top-bar {
+  background-color: #004080;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.top-bar .logo {
+  font-family: Trebuchet MS, fantasy;
+  color: #ffde00;
+  font-size: 1.4em;
+  margin-right: 24px;
+}
+.search-form input[type="text"] {
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  margin-right: 7px;
+}
+.search-form input[type="submit"] {
+  background: #003060;
+  color: #ffde00;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 17px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.top-bar a {
+  color: #ffde00;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Trebuchet MS, sans-serif;
+  margin-left: 11px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.top-bar a:hover {
+  background-color: #003060;
+}
+.logout-btn {
+  margin-left: auto;
+  background-color: #ff5252;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.logout-btn:hover {
+  background-color: #b60000;
+}
+.content {
+  margin: 28px auto;
+  width: 80%;
+  padding: 18px 0;
+  text-align: center;
+}
+.quick-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 32px;
+}
+.card {
+  background: #004080;
+  color: #ffde00;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px #19306077;
+  padding: 25px 35px;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+  display: inline-block;
+}
+.card:hover {
+  background: #ffde00;
+  color: #004080;
+}
