@@ -1,0 +1,72 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #1b1b2f;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #ff4da6, #ff66b3);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.navbar a:hover {
+    color: #ffd6f0;
+    text-shadow: 0 0 5px #fff;
+}
+
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.announcement-card {
+    background: linear-gradient(135deg, #ff4da6, #ff66b3);
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    transition: transform 0.3s;
+    position: relative;
+}
+.announcement-card:hover {
+    transform: translateY(-5px);
+}
+
+.announcement-card::before {
+    content: "📢";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 24px;
+}
+
+.announcement-card p {
+    margin-left: 35px;
+    font-size: 16px;
+}
+
+.announcement-card small {
+    display: block;
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: 12px;
+    color: #fff8;
+}
